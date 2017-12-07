@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.acer.anmiatinoshow.MainActivity">
+
+    <!--重新选择-->
+    <TextView
+        android:id="@+id/again"
+        android:text="重新选择"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="#ff6699"
+        android:textStyle="bold"
+        />
+
+    <!--上一步-->
+    <TextView
+        android:id="@+id/last"
+        android:text="上一步"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <!--顶部标题-->
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:text="身份选择"
+        android:textColor="#ff6699"
+        tools:mockup_opacity="100%"
+        android:textSize="21.3sp"
+        android:lines="30"
+        android:layout_marginTop="90px"
+        android:layout_centerHorizontal="true" />
+
+    <!--标题简介-->
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="16sp"
+        android:text="请小仙女选择一个在美课堂身份吧"
+        android:textColor="#c1c1c1"
+        tools:mockup_opacity="100%"
+        android:textSize="13sp"
+        android:lines="30"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tex"
+        />
+
+    <!--爱好者界面-->
+    <ImageView
+        android:id="@+id/small1"
+        android:src="@mipmap/zhichangjingying"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="small"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/small2"
+        android:src="@mipmap/shenghuoxiuxian"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="small"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/small3"
+        android:src="@mipmap/zhutihuodong"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="small"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/small4"
+        android:src="@mipmap/suxingyuyangsheng"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="small"
+        android:layout_centerInParent="true"/>
+
+    <!--美业人界面-->
+    <ImageView
+        android:id="@+id/meiyeren_small1"
+        android:src="@mipmap/chuxuezhe"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="small"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_small2"
+        android:src="@mipmap/zaizhizhe"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="small"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_small3"
+        android:src="@mipmap/jingyingzhe"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="small"
+        android:layout_centerInParent="true"/>
+
+    <!--美业人,初学者界面详细-->
+    <ImageView
+        android:id="@+id/meiyeren_chu1"
+        android:src="@mipmap/obchuazhuang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="chuxuezhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_chu2"
+        android:src="@mipmap/obcmeijian"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="chuxuezhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_chu3"
+        android:src="@mipmap/obcmeifa"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="chuxuezhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_chu5"
+        android:src="@mipmap/obcmeirong"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="chuxuezhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_chu6"
+        android:src="@mipmap/obcmeixue"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="chuxuezhe"
+        android:layout_centerInParent="true"/>
+
+    <!--美业人,在职者界面详细-->
+    <ImageView
+        android:id="@+id/meiyeren_zaizhezhe_huazhuang"
+        android:src="@mipmap/huazhuang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="zaizhizhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_zaizhezhe_meijia"
+        android:src="@mipmap/meijia"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="zaizhizhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_zaizhezhe_meifa"
+        android:src="@mipmap/meifa"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="zaizhizhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_zaizhizhe_meirong"
+        android:src="@mipmap/meirong"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="zaizhizhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_zaizhizhe_meixue"
+        android:src="@mipmap/meixue"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="zaizhizhe"
+        android:layout_centerInParent="true"/>
+
+    <!--在职者,经营者界面详细-->
+    <ImageView
+        android:id="@+id/meiyeren_jingyingzhe_yejibeizeng"
+        android:src="@mipmap/yejibeizeng"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="jingyingzhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_jingyingzhe_jingyingguanli"
+        android:src="@mipmap/jingyingguanli"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="jingyingzhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_jingyingzhe_caiwuguanli"
+        android:src="@mipmap/caiwuguanli"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="jingyingzhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_jingyingzhe_zibenyunzuo"
+        android:src="@mipmap/zibenyunzuo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="jingyingzhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_jingyingzhe_qiyewenhua"
+        android:src="@mipmap/qiyewenhua"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="jingyingzhe"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/meiyeren_jingyingzhe_tuanduijianshe"
+        android:src="@mipmap/tuanduijianshe"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="jingyingzhe"
+        android:layout_centerInParent="true"/>
+
+    <!--美业人大图-->
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:src="@mipmap/meiyeren"
+        android:layout_centerInParent="true"
+        />
+
+    <!--爱好者大图-->
+    <ImageView
+        android:id="@+id/image2"
+        android:src="@mipmap/aihaozhe"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:onClick="small"
+        android:layout_centerInParent="true"/>
+
+    <!--下方开启美丽条   红-->
+    <ImageView
+        android:id="@+id/start_beautiful"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/aihaozhe_kaiqimeili"
+        android:layout_below="@+id/image2"
+        android:layout_marginTop="60dp"
+        android:onClick="kaishibeautiful"
+        android:layout_centerHorizontal="true"
+        />
+
+    <!--下方开启美丽条   蓝-->
+    <ImageView
+        android:id="@+id/start_beautiful_blue"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/meiyeren_kaiqimeili"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="kaishibeautiful"
+        android:layout_marginBottom="110dp"
+        />
+
+</RelativeLayout>

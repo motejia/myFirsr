@@ -1,0 +1,556 @@
+{
+  "i": {
+    "list": [
+      {
+        "name": "OBC美甲",
+        "img": "img\/obcmeijia.jpg",
+        "lid": "209"
+      },
+      {
+        "name": "OBC美发",
+        "img": "img\/obcmeifa.jpg",
+        "lid": "210"
+      },
+      {
+        "name": "半永久双线班",
+        "img": "img\/byj.jpg",
+        "lid": "175"
+      },
+      {
+        "name": "美睫双线班",
+        "img": "img\/mmj.jpg",
+        "lid": "173"
+      },
+      {
+        "name": "网红妆双线班",
+        "img": "img\/wh.jpg",
+        "lid": "200"
+      }
+    ],
+    "img": "http:\/\/api.dameiketang.com\/Appapi\/select\/lessonimg\/sx.jpg",
+    "name": "双线课专区"
+  },
+  "d": [
+    {
+      "name": "精品专区",
+      "id": "47",
+      "type": "1",
+      "original": "",
+      "img": "http:\/\/api.dameiketang.com\/Appapi\/select\/lessonimg\/jp.jpg"
+    },
+    {
+      "name": "美发",
+      "id": "9",
+      "type": "2",
+      "original": "",
+      "img": "http:\/\/api.dameiketang.com\/Appapi\/select\/lessonimg\/mf.jpg"
+    },
+    {
+      "name": "化妆",
+      "id": "19",
+      "type": "2",
+      "original": "",
+      "img": "http:\/\/api.dameiketang.com\/Appapi\/select\/lessonimg\/hz.jpg"
+    },
+    {
+      "name": "美甲",
+      "id": "5",
+      "type": "2",
+      "original": "",
+      "img": "http:\/\/api.dameiketang.com\/Appapi\/select\/lessonimg\/mj.jpg"
+    },
+    {
+      "name": "美容",
+      "id": "26",
+      "type": "2",
+      "original": "",
+      "img": "http:\/\/api.dameiketang.com\/Appapi\/select\/lessonimg\/mr.jpg"
+    },
+    {
+      "name": "美学",
+      "id": "14",
+      "type": "2",
+      "original": "",
+      "img": "http:\/\/api.dameiketang.com\/Appapi\/select\/lessonimg\/mx.jpg"
+    },
+    {
+      "name": "经营",
+      "id": "32",
+      "type": "1",
+      "original": "",
+      "img": "http:\/\/api.dameiketang.com\/Appapi\/select\/lessonimg\/jy.jpg"
+    },
+    {
+      "name": "女神塑造",
+      "id": "42",
+      "type": "1",
+      "original": "",
+      "img": "http:\/\/api.dameiketang.com\/Appapi\/select\/lessonimg\/ns.jpg"
+    }
+  ],
+  "m": [
+    [
+      {
+        "name": "精品全部",
+        "id": "47",
+        "type": "1"
+      },
+      {
+        "name": "名师有约",
+        "id": "49",
+        "type": "2"
+      }
+    ],
+    [
+      {
+        "name": "美发全部",
+        "id": "9",
+        "type": "2"
+      },
+      {
+        "name": "造型",
+        "id": "10",
+        "type": "3"
+      },
+      {
+        "name": "洗护",
+        "id": "11",
+        "type": "3"
+      },
+      {
+        "name": "剪发",
+        "id": "12",
+        "type": "3"
+      },
+      {
+        "name": "烫染",
+        "id": "13",
+        "type": "3"
+      }
+    ],
+    [
+      {
+        "name": "化妆全部",
+        "id": "19",
+        "type": "2"
+      },
+      {
+        "name": "生活妆",
+        "id": "20",
+        "type": "3"
+      },
+      {
+        "name": "舞台妆",
+        "id": "21",
+        "type": "3"
+      },
+      {
+        "name": "工作妆",
+        "id": "22",
+        "type": "3"
+      },
+      {
+        "name": "特效化妆",
+        "id": "23",
+        "type": "3"
+      },
+      {
+        "name": "新娘妆",
+        "id": "24",
+        "type": "3"
+      },
+      {
+        "name": "整体造型",
+        "id": "25",
+        "type": "3"
+      }
+    ],
+    [
+      {
+        "name": "美甲全部",
+        "id": "5",
+        "type": "2"
+      },
+      {
+        "name": "生活",
+        "id": "6",
+        "type": "3"
+      },
+      {
+        "name": "职场",
+        "id": "7",
+        "type": "3"
+      },
+      {
+        "name": "艺术",
+        "id": "8",
+        "type": "3"
+      }
+    ],
+    [
+      {
+        "name": "美容全部",
+        "id": "26",
+        "type": "2"
+      },
+      {
+        "name": "基础美容",
+        "id": "27",
+        "type": "3"
+      },
+      {
+        "name": "面部美容",
+        "id": "28",
+        "type": "3"
+      },
+      {
+        "name": "塑造身体",
+        "id": "29",
+        "type": "3"
+      },
+      {
+        "name": "SPA养生",
+        "id": "30",
+        "type": "3"
+      },
+      {
+        "name": "中医美容",
+        "id": "31",
+        "type": "3"
+      }
+    ],
+    [
+      {
+        "name": "美学全部",
+        "id": "14",
+        "type": "2"
+      },
+      {
+        "name": "素描",
+        "id": "15",
+        "type": "3"
+      },
+      {
+        "name": "形象",
+        "id": "16",
+        "type": "3"
+      },
+      {
+        "name": "色彩",
+        "id": "17",
+        "type": "3"
+      },
+      {
+        "name": "DIY",
+        "id": "18",
+        "type": "3"
+      }
+    ],
+    [
+      {
+        "name": "经营全部",
+        "id": "32",
+        "type": "1"
+      },
+      {
+        "name": "业绩倍增",
+        "id": "33",
+        "type": "2"
+      },
+      {
+        "name": "经验管理",
+        "id": "34",
+        "type": "2"
+      },
+      {
+        "name": "团队建设",
+        "id": "35",
+        "type": "2"
+      },
+      {
+        "name": "资本运作",
+        "id": "36",
+        "type": "2"
+      }
+    ],
+    [
+      {
+        "name": "女神全部",
+        "id": "42",
+        "type": "1"
+      },
+      {
+        "name": "生活休闲",
+        "id": "43",
+        "type": "2"
+      },
+      {
+        "name": "职场经营",
+        "id": "44",
+        "type": "2"
+      },
+      {
+        "name": "主题活动",
+        "id": "45",
+        "type": "2"
+      },
+      {
+        "name": "塑形养生",
+        "id": "46",
+        "type": "2"
+      }
+    ]
+  ],
+  "t": {
+    "在职者": {
+      "id": "4",
+      "name": "在职者",
+      "type": "1"
+    },
+    "美甲应用": {
+      "id": "5",
+      "name": "美甲应用",
+      "type": "2"
+    },
+    "生活": {
+      "id": "6",
+      "name": "生活",
+      "type": "3"
+    },
+    "职场": {
+      "id": "7",
+      "name": "职场",
+      "type": "3"
+    },
+    "艺术": {
+      "id": "8",
+      "name": "艺术",
+      "type": "3"
+    },
+    "美发应用": {
+      "id": "9",
+      "name": "美发应用",
+      "type": "2"
+    },
+    "造型": {
+      "id": "10",
+      "name": "造型",
+      "type": "3"
+    },
+    "洗护": {
+      "id": "11",
+      "name": "洗护",
+      "type": "3"
+    },
+    "剪发": {
+      "id": "12",
+      "name": "剪发",
+      "type": "3"
+    },
+    "烫染": {
+      "id": "13",
+      "name": "烫染",
+      "type": "3"
+    },
+    "美学应用": {
+      "id": "14",
+      "name": "美学应用",
+      "type": "2"
+    },
+    "素描": {
+      "id": "15",
+      "name": "素描",
+      "type": "3"
+    },
+    "形象": {
+      "id": "16",
+      "name": "形象",
+      "type": "3"
+    },
+    "色彩": {
+      "id": "17",
+      "name": "色彩",
+      "type": "3"
+    },
+    "DIY": {
+      "id": "18",
+      "name": "DIY",
+      "type": "3"
+    },
+    "化妆应用": {
+      "id": "19",
+      "name": "化妆应用",
+      "type": "2"
+    },
+    "生活妆": {
+      "id": "20",
+      "name": "生活妆",
+      "type": "3"
+    },
+    "舞台妆": {
+      "id": "21",
+      "name": "舞台妆",
+      "type": "3"
+    },
+    "工作妆": {
+      "id": "22",
+      "name": "工作妆",
+      "type": "3"
+    },
+    "特效化妆": {
+      "id": "23",
+      "name": "特效化妆",
+      "type": "3"
+    },
+    "新娘妆": {
+      "id": "24",
+      "name": "新娘妆",
+      "type": "3"
+    },
+    "整体造型": {
+      "id": "25",
+      "name": "整体造型",
+      "type": "3"
+    },
+    "美容应用": {
+      "id": "26",
+      "name": "美容应用",
+      "type": "2"
+    },
+    "基础美容": {
+      "id": "27",
+      "name": "基础美容",
+      "type": "3"
+    },
+    "面部美容": {
+      "id": "28",
+      "name": "面部美容",
+      "type": "3"
+    },
+    "塑造身体": {
+      "id": "29",
+      "name": "塑造身体",
+      "type": "3"
+    },
+    "SPA养生": {
+      "id": "30",
+      "name": "SPA养生",
+      "type": "3"
+    },
+    "中医美容": {
+      "id": "31",
+      "name": "中医美容",
+      "type": "3"
+    },
+    "经营者": {
+      "id": "32",
+      "name": "经营者",
+      "type": "1"
+    },
+    "业绩倍增": {
+      "id": "33",
+      "name": "业绩倍增",
+      "type": "2"
+    },
+    "经营管理": {
+      "id": "34",
+      "name": "经营管理",
+      "type": "2"
+    },
+    "团队建设": {
+      "id": "35",
+      "name": "团队建设",
+      "type": "2"
+    },
+    "资本运作": {
+      "id": "36",
+      "name": "资本运作",
+      "type": "2"
+    },
+    "初学者": {
+      "id": "37",
+      "name": "初学者",
+      "type": "1"
+    },
+    "OBC美容": {
+      "id": "38",
+      "name": "OBC美容",
+      "type": "2"
+    },
+    "OBC美发": {
+      "id": "39",
+      "name": "OBC美发",
+      "type": "2"
+    },
+    "OBC化妆": {
+      "id": "40",
+      "name": "OBC化妆",
+      "type": "2"
+    },
+    "OBC美甲": {
+      "id": "41",
+      "name": "OBC美甲",
+      "type": "2"
+    },
+    "爱好者课程": {
+      "id": "42",
+      "name": "爱好者课程",
+      "type": "1"
+    },
+    "生活休闲": {
+      "id": "43",
+      "name": "生活休闲",
+      "type": "2"
+    },
+    "职场经营": {
+      "id": "44",
+      "name": "职场经营",
+      "type": "2"
+    },
+    "主题活动": {
+      "id": "45",
+      "name": "主题活动",
+      "type": "2"
+    },
+    "塑形养生": {
+      "id": "46",
+      "name": "塑形养生",
+      "type": "2"
+    },
+    "精品课": {
+      "id": "47",
+      "name": "精品课",
+      "type": "1"
+    },
+    "后起之秀": {
+      "id": "48",
+      "name": "后起之秀",
+      "type": "2"
+    },
+    "名师有约": {
+      "id": "49",
+      "name": "名师有约",
+      "type": "2"
+    },
+    "双线课": {
+      "id": "50",
+      "name": "双线课",
+      "type": "1"
+    },
+    "其它": {
+      "id": "51",
+      "name": "其它",
+      "type": "2"
+    },
+    "在职双线班": {
+      "id": "52",
+      "name": "在职双线班",
+      "type": "2"
+    },
+    "OBC双线班": {
+      "id": "54",
+      "name": "OBC双线班",
+      "type": "2"
+    }
+  }
+}

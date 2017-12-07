@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/sweep"
+            android:layout_margin="30dp"
+            android:layout_alignParentRight="true"
+            />
+
+        <RadioGroup
+            android:id="@+id/shouye_group"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/shouye_but1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:gravity="center"
+                android:text="推荐"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/shouye_but2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:gravity="center"
+                android:text="选课"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/shouye_but3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:gravity="center"
+                android:text="搜索"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        />
+
+    <RelativeLayout
+        android:id="@+id/shouye_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></RelativeLayout>
+
+</LinearLayout>
